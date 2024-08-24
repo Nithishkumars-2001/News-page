@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Newsroom Page </title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                GR News
+            </div>
+
+            <div class="navbar-links">
+                <a href="#"> Home </a>
+                <a href="#"> Sports </a>
+                <a href="#"> Business </a>
+                <a href="#"> Politics </a>
+                <a href="#"> Entertainment</a>
+                <a href="#"> Tech </a>
+                <a href="#"> World </a>
+                <a href="#"> Health </a>
+            </div>
+
+            <div class="navbar-menu-toggle" onclick="shownavbar()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+        <div class="navbar-text">
+            <h3> Strange job: Elon Musk offering $100,000 for this role at Tesla</h3>
+            <div class="date-time">
+                <h4>Life</h4>
+                <h5>August 15, 2024</h5>
+            </div>
+            <p>Elon Musk seems to go above and beyond to enhance the knowledge base for Tesla's Optimus program. He is looking to hire someone to personate a robot to facilitate his initiative to create humanoids. Elon Musk wants to move his humanoid robot initiative forward by hiring someone to pose as a robot.</p>
+        </div>
+    </div>
+
+     <!--Side Navbar-->
+     <div class="side-navbar">
+        <p class="cross-symbol" onclick="closenavbar()"> <i class="fa fa-times" aria-hidden="true"></i> </p>
+        
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="#"> Home </a></p>
+            <p class="side-navbar-link"><a href="#"> Sports </a></p>
+            <p class="side-navbar-link"><a href="#"> Business </a></p>
+            <p class="side-navbar-link"><a href="#"> Politics </a></p>
+            <p class="side-navbar-link"><a href="#"> Entertainment </a></p>
+            <p class="side-navbar-link"><a href="#"> Tech </a></p>
+            <p class="side-navbar-link"><a href="#"> World </a></p>
+            <p class="side-navbar-link"><a href="#"> Health </a></p>
+        </div>
+    </div>
+
+
+    <div class="latest-news">
+
+        <div class="sec-wea-fin">
+            <div class="search">
+                <input type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="weather">
+                <div class="location">
+                    <h2>Chennai</h2>
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                </div>
+                <h5>Clear Sky</h5>
+
+                <div class="weather-degree-box">
+                    <div class="weather-degree">
+                        <i class="fa-solid fa-sun"></i>
+                        <h1>32°C</h1>
+                    </div>
+                    <h4>Cloudy</h4>
+                    <p>28 ~ 32°C Feels like 40°C</p>
+                </div>
+
+                <hr>
+
+                <div class="week-weather">
+                    <div class="day">
+                        <h5>Thu</h5>
+                        <h3> 24° </h3>
+                    </div>
+
+                    <div class="day">
+                        <h5>fri</h5>
+                        <h3> 30° </h3>
+                    </div>
+
+                    <div class="day">
+                        <h5>sat</h5>
+                        <h3> 26° </h3>
+                    </div>
+
+                    <div class="day">
+                        <h5>sun</h5>
+                        <h3> 34° </h3>
+                    </div>
+
+                    <div class="day">
+                        <h5>mon</h5>
+                        <h3> 25° </h3>
+                    </div>
+
+                    <div class="day">
+                        <h5>tue</h5>
+                        <h3> 25° </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="finance">
+                <div class="finance-title">
+                    <i class="fa-solid fa-money-bill-1-wave"></i>
+                    <h4>Finance</h4>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, sapiente.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis nesciunt libero ducimus eligendi suscipit nostrum!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, adipisci!</p>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="ola.jpg" alt="">
+            <div class="news-text">
+                <p>Moreover, in its first earnings announcement post listing, Ola said its losses in the June quarter widened to ₹347 crore from ₹267 crore a year ago.</p> 
+                <div class="date-time">
+                    <h4>Life</h4>
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="Chandrayaan.jpg" alt="">
+            <div class="news-text">
+                <p>Chandrayaan Pragyan rover offers evidence of magma ocean on young moon. As Pragyan travelled around 100 m from the lander over two weeks.</p> 
+                <div class="date-time">
+                    <h4>world</h4>
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="tvk.jpg" alt="">
+            <div class="news-text">
+                <p>Actor Vijay revealed his party Tamilaga Vettri Kazhagam's (TVK) party flag and symbol on August 22. On the occasion, Vijay's parents were also present. </p> 
+                <div class="date-time">
+                    <h4> Politics</h4>
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <img src="Sport lead vinesha.avif" alt="">
+            <div class="news-text">
+                <p>After wrestler Vinesh's disqualification, UWW may consult medical commission. Indian wrestler Vinesh Phogat during the Paris Olympics 2024.</p> 
+                <div class="date-time">
+                    <h4>Sports</h4>
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Entertainment-->
+
+    <div class="entertainment">
+        <div class="entertainment-titile">
+            <i class="fa-solid fa-play"></i>
+            <h3> Entertainment </h3>
+        </div>
+
+        <div class="entertainment-news-boxs">
+            <div class="entertainment-news">
+                <img src="kalki.jpg" alt="">
+                <div class="entertainment-news-text">
+                    <p>After Kalki 2898 AD's release on the digital platform, several fans have agreed with Arshad Warsi's comment on Prabhas' character in the film.</p> 
+                    <div class="post-date-time">
+                        <h4>Entertainment</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="entertainment-news">
+                <img src="IIFA.avif" alt="">
+                <div class="entertainment-news-text">
+                    <p>IIFA Awards 2024: From Date, Time, Place to Ticket Prices, Here's Everything You Need to Know About The Mega Event.</p> 
+                    <div class="post-date-time">
+                        <h4>Entertainment</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="entertainment-news">
+                <img src="marvel.jpg" alt="">
+                <div class="entertainment-news-text">
+                    <p>Robert Downey Jr. returning to the MCU as the villain Doctor Doom has created a buzz among fans. </p> 
+                    <div class="post-date-time">
+                        <h4>Entertainment</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="entertainment-news">
+                <img src="android car.jpg" alt="">
+                <div class="entertainment-news-text">
+                    <p>Keep Your car Online With iPlayStream Stereo. India 1st Android Car Stereo with Free Internet for Life.</p> 
+                    <div class="post-date-time">
+                        <h4>Entertainment</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sports-->
+
+    <div class="sports-news-box">
+
+        <div class="sports-titile">
+            <i class="fa-solid fa-baseball-bat-ball"></i>
+            <h3> Sports </h3>
+        </div>
+
+        <div class="soc-icons-cmds">
+            <div class="social-follwers">
+                <div class="soc-icn">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <h4> 25000 Fans </h4>
+                    <h5> Like </h5>
+                </div>
+
+                <div class="soc-icn">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h4> 80K Followers </h4>
+                    <h5> FOLLOW </h5>
+                </div>
+
+                <div class="soc-icn">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h4> 500K Followers </h4>
+                    <h5> FOLLOW </h5>
+                </div>
+
+                <div class="soc-icn">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <h4> 50000 Followers </h4>
+                    <h5> FOLLOW </h5>
+                </div>
+            </div>
+
+            <div class="recent-cmd">
+                <h3> Recent Comments</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero neque, in qui alias pariatur similique.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, et.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nobis iste suscipit reprehenderit accusantium delectus quae fugit, accusamus itaque quaerat!</p>
+                <hr>
+                
+                <div class="cricket-cmd">
+                    <p> Rohit Sharma Thanks 'Three Pillars' For T20 World Cup Win. Not Bumrah, Kohli, Or Hardik</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sports-news">
+            <img src="Kuldeep_Yadav.avif" alt="">
+            <div class="sports-news-text">
+                <p>Warne's death felt like losing someone from my family: Kuldeep Yadav He, however, did not elaborate on his equation with the legend, who died of a cardiac arrest while on a holiday in Thailand in 2022.</p> 
+                <div class="sports-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="sports-news">
+            <img src="sport-news2.avif" alt="">
+            <div class="sports-news-text">
+                <p>Neeraj finishes second in Lausanne Diamond League with season's best 89.49m. He was in danger of missing the sixth throw but his fifth round effort of 85.58m saved him.</p> 
+                <div class="sports-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="sports-news">
+            <img src="sports-news3.avif" alt="">
+            <div class="sports-news-text">
+                <p>BAI seeking more depth in national team with future Olympics in mind National badminton body's secretary general Sanjay Mishra says the sport needs proper systems in place to create big pool of players. </p> 
+                <div class="sports-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="sports-news">
+            <img src="Sport lead vinesha.avif" alt="">
+            <div class="sports-news-text">
+                <p>After wrestler Vinesh's disqualification, UWW may consult medical commission. Indian wrestler Vinesh Phogat during the Paris Olympics 2024.</p> 
+                <div class="sports-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Politics-->
+
+    <div class="politics">
+        <div class="politics-titile">
+            <i class="fa-solid fa-play"></i>
+            <h3> Politics </h3>
+        </div>
+
+        <div class="politics-news-boxs">
+            <div class="politics-news">
+                <img src="politics-news1.webp" alt="">
+                <div class="politics-news-text">
+                    <p>Heated exchanges at first Waqf JPC meet; next meet on August 30.</p> 
+                    <div class="post-date-time">
+                        <h4>politics</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="politics-news">
+                <img src="politics-news2.webp" alt="">
+                <div class="politics-news-text">
+                    <p>'Exemplary Punishment Needed': In Letter To PM Modi, Mamata Demands Stricter Anti-Rape Legislation; BJP Reacts.</p> 
+                    <div class="post-date-time">
+                        <h4>politics</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="politics-news">
+                <img src="tvk.jpg" alt="">
+                <div class="politics-news-text">
+                    <p>The challenges that actor-politician Vijay faces before 2026 Tamil Nadu assembly election.</p> 
+                    <div class="post-date-time">
+                        <h4>politics</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="politics-news">
+                <img src="poltics-news4.jpg" alt="">
+                <div class="politics-news-text">
+                    <p>No Maharashtra Bandh tomorrow: Bombay HC restrains any political party from calling for strike in state.</p> 
+                    <div class="post-date-time">
+                        <h4>politics</h4>
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tech-->
+
+    <div class="tech-news-box">
+
+        <div class="tech-titile">
+            <i class="fa-solid fa-microchip"></i>
+            <h3> Tech </h3>
+        </div>
+
+        <div class="music">
+            <div class="music-title">
+                <i class="fa-solid fa-headphones"></i>
+                <h3> Music </h3>
+            </div>
+
+            <div class="music-text">
+                <div class="browse">
+                    <h4> Browse </h4>
+                    <h5> <a href="#"> Trending Song </a></h5>
+                    <h5> <a href="#"> Trending Albums </a></h5>
+                    <h5> <a href="#"> Recent Supported </a></h5>
+                    <h5> <a href="#"> Recent Added </a></h5>
+                    <h5> <a href="#"> Accounts for you</a></h5>
+                </div>
+
+                <div class="browse">
+                    <h4> Charts </h4>
+                    <h5> <a href="#"> Top Songs </a></h5>
+                    <h5> <a href="#"> Top Albums </a></h5>
+                    <h5> <a href="#"> Top Supported </a></h5>
+                </div>
+
+                <img src="music.jpg" alt="">
+
+                <div class="music-para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quis.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam autem quaerat saepe, corrupti magni sequi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis cum officia velit enim. Voluptatem?</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="tech-news">
+            <img src="apple.avif" alt="">
+            <div class="tech-news-text">
+                <p>	Apple Patent Application Describes a Smart Ring That Can Control Multiple Devices.</p> 
+                <div class="tech-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-news">
+            <img src="Tech-feature.avif" alt="">
+            <div class="tech-news-text">
+                <p>	This app uses computer vision to identify malaria-carrying mosquitoes. VectorCam lets users identify the species of a mosquito by clicking a picture of it.</p> 
+                <div class="tech-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-news">
+            <img src="micro.avif" alt="">
+            <div class="tech-news-text">
+                <p>Microsoft announces Xbox Adaptive Joystick, a controller you can use with one hand. </p> 
+                <div class="tech-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-news">
+            <img src="ola.jpg" alt="">
+            <div class="tech-news-text">
+                <p>Moreover, in its first earnings announcement post listing, Ola said its losses in the June quarter widened to ₹347 crore from ₹267 crore a year ago.</p> 
+                <div class="tech-date-time">
+                    <h5>August 15, 2024</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Latest Acticles-->
+
+    <div class="latest-acticles">
+        <div class="lat-act-titile">
+            <i class="fa-solid fa-newspaper"></i>
+            <h3> Latest Acticles </h3>
+        </div>
+
+        <div class="user-profile-box">
+            <div class="user-profile">
+                <img src="user-name-img.jpg" alt="">
+                <h3>@username</h3>
+            </div>
+
+            <div class="followers-post">
+                <div class="follower-count">
+                    <h4>12</h4>
+                    <h4>Post</h4>
+                </div>
+
+                <div class="follower-count">
+                    <h4>2505</h4>
+                    <h4>Followers</h4>
+                </div>
+
+                <div class="follower-count">
+                    <h4>1300</h4>
+                    <h4>Following</h4>
+                </div>
+            </div>
+
+            <div class="post-img">
+                <img src="post1.jpg" alt="">
+                <img src="post2.jpg" alt="">
+                <img src="post3.jpg" alt="">
+                <img src="post4.jpg" alt="">
+                <img src="post5.jpg" alt="">
+                <img src="post6.jpg" alt="">
+                <img src="post7.jpg" alt="">
+                <img src="post8.jpg" alt="">
+                <img src="post9.jpg" alt="">
+                <img src="post10.jpg" alt="">
+                <img src="post11.jpg" alt="">
+                <img src="post12.jpg" alt="">
+            </div>
+
+            <div class="popular-categories">
+                <h3>Popular Categories</h3>
+                <h4> Tech </h4>
+                <h4> Politics </h4>
+                <h4> Entertainment </h4>
+                <h4> Music </h4>
+                <h4> sports </h4>
+                <h4> world </h4>
+                <h4> Health </h4>
+            </div>
+            
+        </div>
+
+        <div class="articles-news-boxs">
+            <div class="articles-news">
+                <img src="articles1.jpeg" alt="">
+                <div class="articles-news-text">
+                    <p>EY Future Consumer Index: consumers return to physical stores for personal service, even as AI and tech revolutionize online shopping. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles2.jpeg" alt="">
+                <div class="articles-news-text">
+                    <p>EY recognized as the 2024 Databricks Financial Services Partner of the Year. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles3.webp" alt="">
+                <div class="articles-news-text">
+                    <p>AI — and how to create realistic, trustworthy value from it — has disrupted the IT agenda.  </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles4.jpg" alt="">
+                <div class="articles-news-text">
+                    <p>More than 3 in 4 Tech Leaders Worry About SaaS Security Threats, New Survey Reveals. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles5.webp" alt="">
+                <div class="articles-news-text">
+                    <p>Instagram testing new profile layout that may disrupt the classic grid. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles6.webp" alt="">
+                <div class="articles-news-text">
+                    <p>What is AI, how does it work and what can it be used for?. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles7.avif" alt="">
+                <div class="articles-news-text">
+                    <p>How tech giants cut corners to harvest data for artificial intelligence. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles8.avif" alt="">
+                <div class="articles-news-text">
+                    <p>Tech News Today: Microsoft announces AI Chips, Instagram gets new custom AI sticker maker and more. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-news">
+                <img src="articles9.webp" alt="">
+                <div class="articles-news-text">
+                    <p>I'm teaching again after 20 years away. The tech is pure absurdity. </p> 
+                    <div class="post-date-time">
+                        <h5>August 15, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Contact Us-->
+
+    <div class="contact-us">
+        <div class="popular-articals">
+            <h3>Popular articles</h3>
+            <p>Lorem ipsum dolor sit amet consectetur  elit. Dolorem, dicta.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur  elit. Aperiam voluptatem sed quas animi quo cupiditate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, aperiam placeat? Fugiat blanditiis cumque eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus sit consequuntur numquam hic fuga?</p>
+        </div>
+
+        <div class="featured">
+            <h3>Featured</h3>
+            <p>Lorem ipsum dolor sit amet consectetur  elit. Dolorem, dicta.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur  elit. Aperiam voluptatem sed quas animi quo cupiditate!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, aperiam placeat? Fugiat blanditiis cumque eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus sit consequuntur numquam hic fuga?</p>
+        </div>
+
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get the latest news, offers and special announcement. </p>
+
+            <input type="gmail" placeholder="Your Email Address">
+
+            <button> Subscribe </button>
+
+            <p> By subscribing, you're accepting to receive promotion</p>
+
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-solid fa-rss"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
