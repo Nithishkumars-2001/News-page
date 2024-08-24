@@ -881,10 +881,6 @@ body{
 
 @media screen and (max-width: 768px){
 
-    .container{
-        width: 390px;
-    }
-
     .logo{
         font-size: 25px;
         padding-left: 20px;
@@ -903,7 +899,7 @@ body{
     }
 
     .navbar-text{
-        margin-top: 50%;
+        margin-top: 200px;
     }
        
     .navbar-text p{
